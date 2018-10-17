@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A465CE1D217751B000784B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE1C217751B000784B49 /* AppDelegate.swift */; };
+		A465CE1F217751B000784B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE1E217751B000784B49 /* ViewController.swift */; };
+		A465CE22217751B000784B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A465CE20217751B000784B49 /* Main.storyboard */; };
+		A465CE24217751B900784B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A465CE23217751B900784B49 /* Assets.xcassets */; };
+		A465CE27217751B900784B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A465CE25217751B900784B49 /* LaunchScreen.storyboard */; };
+		A465CE32217751BA00784B49 /* TareaiOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE31217751BA00784B49 /* TareaiOsTests.swift */; };
+		A465CE3D217751BA00784B49 /* TareaiOsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE3C217751BA00784B49 /* TareaiOsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A465CE2E217751BA00784B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A465CE11217751B000784B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A465CE18217751B000784B49;
+			remoteInfo = TareaiOs;
+		};
+		A465CE39217751BA00784B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A465CE11217751B000784B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A465CE18217751B000784B49;
+			remoteInfo = TareaiOs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A465CE19217751B000784B49 /* TareaiOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TareaiOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A465CE1C217751B000784B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A465CE1E217751B000784B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A465CE21217751B000784B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A465CE23217751B900784B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A465CE26217751B900784B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A465CE28217751BA00784B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A465CE2D217751BA00784B49 /* TareaiOsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareaiOsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A465CE31217751BA00784B49 /* TareaiOsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareaiOsTests.swift; sourceTree = "<group>"; };
+		A465CE33217751BA00784B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A465CE38217751BA00784B49 /* TareaiOsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareaiOsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A465CE3C217751BA00784B49 /* TareaiOsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareaiOsUITests.swift; sourceTree = "<group>"; };
+		A465CE3E217751BA00784B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A465CE16217751B000784B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A465CE2A217751BA00784B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A465CE35217751BA00784B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A465CE10217751B000784B49 = {
+			isa = PBXGroup;
+			children = (
+				A465CE1B217751B000784B49 /* TareaiOs */,
+				A465CE30217751BA00784B49 /* TareaiOsTests */,
+				A465CE3B217751BA00784B49 /* TareaiOsUITests */,
+				A465CE1A217751B000784B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A465CE1A217751B000784B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A465CE19217751B000784B49 /* TareaiOs.app */,
+				A465CE2D217751BA00784B49 /* TareaiOsTests.xctest */,
+				A465CE38217751BA00784B49 /* TareaiOsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A465CE1B217751B000784B49 /* TareaiOs */ = {
+			isa = PBXGroup;
+			children = (
+				A465CE1C217751B000784B49 /* AppDelegate.swift */,
+				A465CE1E217751B000784B49 /* ViewController.swift */,
+				A465CE20217751B000784B49 /* Main.storyboard */,
+				A465CE23217751B900784B49 /* Assets.xcassets */,
+				A465CE25217751B900784B49 /* LaunchScreen.storyboard */,
+				A465CE28217751BA00784B49 /* Info.plist */,
+			);
+			path = TareaiOs;
+			sourceTree = "<group>";
+		};
+		A465CE30217751BA00784B49 /* TareaiOsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A465CE31217751BA00784B49 /* TareaiOsTests.swift */,
+				A465CE33217751BA00784B49 /* Info.plist */,
+			);
+			path = TareaiOsTests;
+			sourceTree = "<group>";
+		};
+		A465CE3B217751BA00784B49 /* TareaiOsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A465CE3C217751BA00784B49 /* TareaiOsUITests.swift */,
+				A465CE3E217751BA00784B49 /* Info.plist */,
+			);
+			path = TareaiOsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A465CE18217751B000784B49 /* TareaiOs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A465CE41217751BA00784B49 /* Build configuration list for PBXNativeTarget "TareaiOs" */;
+			buildPhases = (
+				A465CE15217751B000784B49 /* Sources */,
+				A465CE16217751B000784B49 /* Frameworks */,
+				A465CE17217751B000784B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TareaiOs;
+			productName = TareaiOs;
+			productReference = A465CE19217751B000784B49 /* TareaiOs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A465CE2C217751BA00784B49 /* TareaiOsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A465CE44217751BA00784B49 /* Build configuration list for PBXNativeTarget "TareaiOsTests" */;
+			buildPhases = (
+				A465CE29217751BA00784B49 /* Sources */,
+				A465CE2A217751BA00784B49 /* Frameworks */,
+				A465CE2B217751BA00784B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A465CE2F217751BA00784B49 /* PBXTargetDependency */,
+			);
+			name = TareaiOsTests;
+			productName = TareaiOsTests;
+			productReference = A465CE2D217751BA00784B49 /* TareaiOsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A465CE37217751BA00784B49 /* TareaiOsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A465CE47217751BA00784B49 /* Build configuration list for PBXNativeTarget "TareaiOsUITests" */;
+			buildPhases = (
+				A465CE34217751BA00784B49 /* Sources */,
+				A465CE35217751BA00784B49 /* Frameworks */,
+				A465CE36217751BA00784B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A465CE3A217751BA00784B49 /* PBXTargetDependency */,
+			);
+			name = TareaiOsUITests;
+			productName = TareaiOsUITests;
+			productReference = A465CE38217751BA00784B49 /* TareaiOsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A465CE11217751B000784B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "JOAQUIN DIAZ RAMIREZ";
+				TargetAttributes = {
+					A465CE18217751B000784B49 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A465CE2C217751BA00784B49 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A465CE18217751B000784B49;
+					};
+					A465CE37217751BA00784B49 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A465CE18217751B000784B49;
+					};
+				};
+			};
+			buildConfigurationList = A465CE14217751B000784B49 /* Build configuration list for PBXProject "TareaiOs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A465CE10217751B000784B49;
+			productRefGroup = A465CE1A217751B000784B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A465CE18217751B000784B49 /* TareaiOs */,
+				A465CE2C217751BA00784B49 /* TareaiOsTests */,
+				A465CE37217751BA00784B49 /* TareaiOsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A465CE17217751B000784B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A465CE27217751B900784B49 /* LaunchScreen.storyboard in Resources */,
+				A465CE24217751B900784B49 /* Assets.xcassets in Resources */,
+				A465CE22217751B000784B49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A465CE2B217751BA00784B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A465CE36217751BA00784B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A465CE15217751B000784B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A465CE1F217751B000784B49 /* ViewController.swift in Sources */,
+				A465CE1D217751B000784B49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A465CE29217751BA00784B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A465CE32217751BA00784B49 /* TareaiOsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A465CE34217751BA00784B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A465CE3D217751BA00784B49 /* TareaiOsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A465CE2F217751BA00784B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A465CE18217751B000784B49 /* TareaiOs */;
+			targetProxy = A465CE2E217751BA00784B49 /* PBXContainerItemProxy */;
+		};
+		A465CE3A217751BA00784B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A465CE18217751B000784B49 /* TareaiOs */;
+			targetProxy = A465CE39217751BA00784B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A465CE20217751B000784B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A465CE21217751B000784B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A465CE25217751B900784B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A465CE26217751B900784B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A465CE3F217751BA00784B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A465CE40217751BA00784B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A465CE42217751BA00784B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L283WBHYKQ;
+				INFOPLIST_FILE = TareaiOs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaquin.TareaiOs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A465CE43217751BA00784B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L283WBHYKQ;
+				INFOPLIST_FILE = TareaiOs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaquin.TareaiOs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A465CE45217751BA00784B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L283WBHYKQ;
+				INFOPLIST_FILE = TareaiOsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaquin.TareaiOsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TareaiOs.app/TareaiOs";
+			};
+			name = Debug;
+		};
+		A465CE46217751BA00784B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L283WBHYKQ;
+				INFOPLIST_FILE = TareaiOsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaquin.TareaiOsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TareaiOs.app/TareaiOs";
+			};
+			name = Release;
+		};
+		A465CE48217751BA00784B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L283WBHYKQ;
+				INFOPLIST_FILE = TareaiOsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaquin.TareaiOsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TareaiOs;
+			};
+			name = Debug;
+		};
+		A465CE49217751BA00784B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L283WBHYKQ;
+				INFOPLIST_FILE = TareaiOsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaquin.TareaiOsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TareaiOs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A465CE14217751B000784B49 /* Build configuration list for PBXProject "TareaiOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A465CE3F217751BA00784B49 /* Debug */,
+				A465CE40217751BA00784B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A465CE41217751BA00784B49 /* Build configuration list for PBXNativeTarget "TareaiOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A465CE42217751BA00784B49 /* Debug */,
+				A465CE43217751BA00784B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A465CE44217751BA00784B49 /* Build configuration list for PBXNativeTarget "TareaiOsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A465CE45217751BA00784B49 /* Debug */,
+				A465CE46217751BA00784B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A465CE47217751BA00784B49 /* Build configuration list for PBXNativeTarget "TareaiOsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A465CE48217751BA00784B49 /* Debug */,
+				A465CE49217751BA00784B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A465CE11217751B000784B49 /* Project object */;
+}
