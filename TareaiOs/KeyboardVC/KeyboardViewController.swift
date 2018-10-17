@@ -9,10 +9,15 @@
 import UIKit
 
 class KeyboardViewController: UIViewController {
+    
+    
+    @IBOutlet weak var tableView : UITableView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "Keyboards"
+        registerCells()
         // Do any additional setup after loading the view.
     }
 
@@ -20,8 +25,16 @@ class KeyboardViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
+    private func registerCells ()
+    {
+        let indentifier = "KeyboardTableViewCell"
+        let cellNib = UINib(nibName: indentifier, bundle: nil)
+        tableView.register(cellNib, forCellReuseIdentifier: "keyboardCell1")
+        let indentifier1 = "Keyboard2TableViewCell"
+        let cellNib1 = UINib(nibName: indentifier1, bundle: nil)
+        tableView.register(cellNib1, forCellReuseIdentifier: "keyboardCell2")
+    }
     /*
     // MARK: - Navigation
 
@@ -32,4 +45,55 @@ class KeyboardViewController: UIViewController {
     }
     */
 
+}
+
+
+extension KeyboardViewController: UITableViewDelegate,UITableViewDataSource
+    
+{
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if section == 0 || section == 1
+        {
+            return nil
+        }
+        else
+        {
+            return "ALL KEYBOARDS"
+        }
+    }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 3
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            if section == 0 || section == 1
+            {
+        return 2
+        }
+        else
+            {
+        return 8
+        }
+        
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 55.0
+       
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        if indexPath.section == 0 || indexPath.section == 1 {
+            let cell: KeyboardTableViewCell = (tableView.dequeueReusableCell(withIdentifier: "keyboardCell1", for: indexPath) as? KeyboardTableViewCell)!
+            cell.accessoryType = .disclosureIndicator
+            return cell
+        }else{
+            let cell: Keyboard2TableViewCell = (tableView.dequeueReusableCell(withIdentifier: "keyboardCell2", for: indexPath) as? Keyboard2TableViewCell)!
+            return cell
+        }
+        
+       
+    }
+    
+    
+    
 }

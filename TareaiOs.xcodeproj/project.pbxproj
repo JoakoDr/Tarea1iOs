@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		A465CE1D217751B000784B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE1C217751B000784B49 /* AppDelegate.swift */; };
 		A465CE1F217751B000784B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE1E217751B000784B49 /* ViewController.swift */; };
-		A465CE22217751B000784B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A465CE20217751B000784B49 /* Main.storyboard */; };
 		A465CE24217751B900784B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A465CE23217751B900784B49 /* Assets.xcassets */; };
 		A465CE27217751B900784B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A465CE25217751B900784B49 /* LaunchScreen.storyboard */; };
 		A465CE32217751BA00784B49 /* TareaiOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE31217751BA00784B49 /* TareaiOsTests.swift */; };
 		A465CE3D217751BA00784B49 /* TareaiOsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE3C217751BA00784B49 /* TareaiOsUITests.swift */; };
+		A465CE4E217753C900784B49 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE4C217753C900784B49 /* KeyboardViewController.swift */; };
+		A465CE4F217753C900784B49 /* KeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A465CE4D217753C900784B49 /* KeyboardViewController.xib */; };
+		A465CE53217754C700784B49 /* KeyboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE51217754C700784B49 /* KeyboardTableViewCell.swift */; };
+		A465CE54217754C700784B49 /* KeyboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A465CE52217754C700784B49 /* KeyboardTableViewCell.xib */; };
+		A465CE572177598500784B49 /* Keyboard2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE552177598500784B49 /* Keyboard2TableViewCell.swift */; };
+		A465CE582177598500784B49 /* Keyboard2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A465CE562177598500784B49 /* Keyboard2TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 		A465CE19217751B000784B49 /* TareaiOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TareaiOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A465CE1C217751B000784B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A465CE1E217751B000784B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A465CE21217751B000784B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A465CE23217751B900784B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A465CE26217751B900784B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A465CE28217751BA00784B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		A465CE38217751BA00784B49 /* TareaiOsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareaiOsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A465CE3C217751BA00784B49 /* TareaiOsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareaiOsUITests.swift; sourceTree = "<group>"; };
 		A465CE3E217751BA00784B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A465CE4C217753C900784B49 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		A465CE4D217753C900784B49 /* KeyboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardViewController.xib; sourceTree = "<group>"; };
+		A465CE51217754C700784B49 /* KeyboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTableViewCell.swift; sourceTree = "<group>"; };
+		A465CE52217754C700784B49 /* KeyboardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardTableViewCell.xib; sourceTree = "<group>"; };
+		A465CE552177598500784B49 /* Keyboard2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard2TableViewCell.swift; sourceTree = "<group>"; };
+		A465CE562177598500784B49 /* Keyboard2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Keyboard2TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,10 @@
 		A465CE1B217751B000784B49 /* TareaiOs */ = {
 			isa = PBXGroup;
 			children = (
+				A465CE502177549B00784B49 /* KeyboardCell */,
+				A465CE4A2177526600784B49 /* KeyboardVC */,
 				A465CE1C217751B000784B49 /* AppDelegate.swift */,
 				A465CE1E217751B000784B49 /* ViewController.swift */,
-				A465CE20217751B000784B49 /* Main.storyboard */,
 				A465CE23217751B900784B49 /* Assets.xcassets */,
 				A465CE25217751B900784B49 /* LaunchScreen.storyboard */,
 				A465CE28217751BA00784B49 /* Info.plist */,
@@ -123,6 +134,26 @@
 				A465CE3E217751BA00784B49 /* Info.plist */,
 			);
 			path = TareaiOsUITests;
+			sourceTree = "<group>";
+		};
+		A465CE4A2177526600784B49 /* KeyboardVC */ = {
+			isa = PBXGroup;
+			children = (
+				A465CE4C217753C900784B49 /* KeyboardViewController.swift */,
+				A465CE4D217753C900784B49 /* KeyboardViewController.xib */,
+			);
+			path = KeyboardVC;
+			sourceTree = "<group>";
+		};
+		A465CE502177549B00784B49 /* KeyboardCell */ = {
+			isa = PBXGroup;
+			children = (
+				A465CE51217754C700784B49 /* KeyboardTableViewCell.swift */,
+				A465CE52217754C700784B49 /* KeyboardTableViewCell.xib */,
+				A465CE552177598500784B49 /* Keyboard2TableViewCell.swift */,
+				A465CE562177598500784B49 /* Keyboard2TableViewCell.xib */,
+			);
+			path = KeyboardCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +260,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A465CE4F217753C900784B49 /* KeyboardViewController.xib in Resources */,
+				A465CE582177598500784B49 /* Keyboard2TableViewCell.xib in Resources */,
 				A465CE27217751B900784B49 /* LaunchScreen.storyboard in Resources */,
+				A465CE54217754C700784B49 /* KeyboardTableViewCell.xib in Resources */,
 				A465CE24217751B900784B49 /* Assets.xcassets in Resources */,
-				A465CE22217751B000784B49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +290,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A465CE1F217751B000784B49 /* ViewController.swift in Sources */,
+				A465CE572177598500784B49 /* Keyboard2TableViewCell.swift in Sources */,
+				A465CE4E217753C900784B49 /* KeyboardViewController.swift in Sources */,
+				A465CE53217754C700784B49 /* KeyboardTableViewCell.swift in Sources */,
 				A465CE1D217751B000784B49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A465CE20217751B000784B49 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A465CE21217751B000784B49 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A465CE25217751B900784B49 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
