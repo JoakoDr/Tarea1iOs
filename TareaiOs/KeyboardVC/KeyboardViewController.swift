@@ -7,9 +7,14 @@
 //
 
 import UIKit
+enum SectionsType {
+    case generalInfo  //value 0
+    case options
+    case moreInfo
+}
 
 class KeyboardViewController: UIViewController {
-    
+    internal var sections: [SectionsType] = [.generalInfo, .options, .moreInfo]
     
     @IBOutlet weak var tableView : UITableView!
     
