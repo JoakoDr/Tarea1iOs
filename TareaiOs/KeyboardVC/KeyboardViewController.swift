@@ -216,27 +216,35 @@ extension KeyboardViewController: keyboard2SwitchDelegate
         switch indexPath?.row {
         case 0:
             switch1.boolAuto = cell.btnSwitch.isOn
+            print("Has pulsado Auto-->")
             print(switch1.boolAuto)
         case 1:
             switch1.boolCorrecion = cell.btnSwitch.isOn
+            print("Has pulsado Correcion-->")
             print(switch1.boolCorrecion)
         case 2:
             switch1.boolSpelling = cell.btnSwitch.isOn
+            print("Has pulsado Spelling-->")
             print(switch1.boolSpelling)
         case 3:
             switch1.boolCaps = cell.btnSwitch.isOn
+            print("Has pulsado Caps-->")
             print(switch1.boolCaps)
         case 4:
             switch1.boolPredictive = cell.btnSwitch.isOn
+            print("Has pulsado Predictive-->")
             print(switch1.boolPredictive)
         case 5:
             switch1.boolPunctuaction = cell.btnSwitch.isOn
+            print("Has pulsado Puncutacion-->")
             print(switch1.boolPunctuaction)
         case 6:
             switch1.boolCharacter = cell.btnSwitch.isOn
+            print("Has pulsado Caracter-->")
             print(switch1.boolAuto)
         case 7:
             switch1.boolShortup = cell.btnSwitch.isOn
+            print("Has pulsado Shortup-->")
             print(switch1.boolShortup)
         default: break
         
