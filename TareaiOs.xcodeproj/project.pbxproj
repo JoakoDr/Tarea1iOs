@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4425F4B2180893D00116361 /* Opcion1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4425F4A2180893D00116361 /* Opcion1.swift */; };
+		A4425F5021808ACD00116361 /* OpcionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4425F4E21808ACD00116361 /* OpcionesViewController.swift */; };
+		A4425F5121808ACD00116361 /* OpcionesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4425F4F21808ACD00116361 /* OpcionesViewController.xib */; };
+		A4425F53218094B200116361 /* SwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4425F52218094B200116361 /* SwitchButton.swift */; };
 		A465CE1D217751B000784B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE1C217751B000784B49 /* AppDelegate.swift */; };
 		A465CE1F217751B000784B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465CE1E217751B000784B49 /* ViewController.swift */; };
 		A465CE24217751B900784B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A465CE23217751B900784B49 /* Assets.xcassets */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4425F4A2180893D00116361 /* Opcion1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opcion1.swift; sourceTree = "<group>"; };
+		A4425F4E21808ACD00116361 /* OpcionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpcionesViewController.swift; sourceTree = "<group>"; };
+		A4425F4F21808ACD00116361 /* OpcionesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpcionesViewController.xib; sourceTree = "<group>"; };
+		A4425F52218094B200116361 /* SwitchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchButton.swift; sourceTree = "<group>"; };
 		A465CE19217751B000784B49 /* TareaiOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TareaiOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A465CE1C217751B000784B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A465CE1E217751B000784B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4425F492180892200116361 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				A4425F4A2180893D00116361 /* Opcion1.swift */,
+				A4425F52218094B200116361 /* SwitchButton.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		A4425F4C21808A8B00116361 /* OpcionesVC */ = {
+			isa = PBXGroup;
+			children = (
+				A4425F4E21808ACD00116361 /* OpcionesViewController.swift */,
+				A4425F4F21808ACD00116361 /* OpcionesViewController.xib */,
+			);
+			path = OpcionesVC;
+			sourceTree = "<group>";
+		};
 		A465CE10217751B000784B49 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +133,8 @@
 		A465CE1B217751B000784B49 /* TareaiOs */ = {
 			isa = PBXGroup;
 			children = (
+				A4425F4C21808A8B00116361 /* OpcionesVC */,
+				A4425F492180892200116361 /* Modelos */,
 				A465CE502177549B00784B49 /* KeyboardCell */,
 				A465CE4A2177526600784B49 /* KeyboardVC */,
 				A465CE1C217751B000784B49 /* AppDelegate.swift */,
@@ -260,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4425F5121808ACD00116361 /* OpcionesViewController.xib in Resources */,
 				A465CE4F217753C900784B49 /* KeyboardViewController.xib in Resources */,
 				A465CE582177598500784B49 /* Keyboard2TableViewCell.xib in Resources */,
 				A465CE27217751B900784B49 /* LaunchScreen.storyboard in Resources */,
@@ -290,8 +319,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A465CE1F217751B000784B49 /* ViewController.swift in Sources */,
+				A4425F5021808ACD00116361 /* OpcionesViewController.swift in Sources */,
 				A465CE572177598500784B49 /* Keyboard2TableViewCell.swift in Sources */,
+				A4425F53218094B200116361 /* SwitchButton.swift in Sources */,
 				A465CE4E217753C900784B49 /* KeyboardViewController.swift in Sources */,
+				A4425F4B2180893D00116361 /* Opcion1.swift in Sources */,
 				A465CE53217754C700784B49 /* KeyboardTableViewCell.swift in Sources */,
 				A465CE1D217751B000784B49 /* AppDelegate.swift in Sources */,
 			);

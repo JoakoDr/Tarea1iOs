@@ -21,7 +21,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUR-1r-U7N">
-                        <rect key="frame" x="27" y="11" width="70" height="43"/>
+                        <rect key="frame" x="27" y="11" width="205" height="43"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="43" id="50U-eD-dKw"/>
                         </constraints>
@@ -29,14 +29,31 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SecondLabel" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSY-4Y-2Lq">
+                        <rect key="frame" x="240" y="14" width="95" height="37"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="37" id="r0N-Ja-zVm"/>
+                            <constraint firstAttribute="width" constant="95" id="ugg-kX-Eqf"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="74" id="zet-My-DoA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="PSY-4Y-2Lq" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="AfY-Ug-c8k"/>
                     <constraint firstItem="GUR-1r-U7N" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="IuT-oA-TIV"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="GUR-1r-U7N" secondAttribute="trailing" constant="238" id="Nn8-DU-exW"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="GUR-1r-U7N" secondAttribute="trailing" constant="103" id="Nn8-DU-exW"/>
                     <constraint firstItem="GUR-1r-U7N" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="11" id="kUv-nE-fAr"/>
+                    <constraint firstItem="PSY-4Y-2Lq" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="nbP-ai-mDQ"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblLabel" destination="GUR-1r-U7N" id="7Iu-SJ-9Ko"/>
+                <outlet property="lblLabel2" destination="PSY-4Y-2Lq" id="o0h-hp-MeA"/>
+            </connections>
             <point key="canvasLocation" x="41.5" y="62.5"/>
         </tableViewCell>
     </objects>

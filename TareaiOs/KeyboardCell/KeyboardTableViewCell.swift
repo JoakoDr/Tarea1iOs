@@ -9,7 +9,8 @@
 import UIKit
 
 class KeyboardTableViewCell: UITableViewCell {
-
+@IBOutlet weak var lblLabel:UILabel?
+    @IBOutlet weak var lblLabel2:UILabel?
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
